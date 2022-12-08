@@ -10,5 +10,7 @@
 - git init
 - git status
 - git add -A
-- git cocommit -m 'initial'
+- git commit -m 'initial'
 - git diff
+- git diff --color-words
+- git checkout index.js # восстановить
