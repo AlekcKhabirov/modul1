@@ -14,5 +14,6 @@
     const categoriesItem = 'products';
     const zchena = 58;
     
-}console.log(item);
-console.log('на сумму ${counts*zchena}');
+    console.log(item);
+    console.log('на сумму ${counts*zchena}');
+}
