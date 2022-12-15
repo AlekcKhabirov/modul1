@@ -7,11 +7,11 @@
     let price = +prompt('Введите цену товара'); 
 
     console.log('item: ',typeof item);
-    console.log('count: ', typeof counts);
+    console.log('counts: ', typeof counts);
     console.log('category:', typeof category);
     console.log('price: ', typeof price);
 
-    console.log(`"В магазине" , counts, "единиц товара" , item, "на сумму", ${counts*price}, "P."`);
+    console.log(`"В магазине" , ${counts}, "единиц товара" , ${item}, "на сумму", ${counts*price}, "P."`);
     }
 
 {
@@ -37,5 +37,4 @@ const isNum = () =>{
 console.log(isNum);
 
 const myName ='Алик';
-`document.body.innerHTML='<h2 class="title">Привет ${myName}</h2>
-<p>Сейчас ${new Date().getFullYear()} год</p>'`;
+`document.body.innerHTML='<h2 class="title">Привет ${myName}</h2><p>Сейчас ${new Date().getFullYear()} год</p>'`;
