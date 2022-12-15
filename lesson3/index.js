@@ -34,7 +34,7 @@
 const isNum = () =>{
     let num =5E6;
     console.log(`itsNumberInteger(${num})`,Number.isInteger(num));}
-console.log(isNum);
+console.log(isNum());
 
 const myName ='Алик';
 `document.body.innerHTML='<h2 class="title">Привет ${myName}</h2><p>Сейчас ${new Date().getFullYear()} год</p>'`;
