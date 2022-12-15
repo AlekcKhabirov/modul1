@@ -1,5 +1,5 @@
 # git config
-git -v
+git -version
 git config --list # выйти q
 git config --global user.name "Alekc"
 git config --global user.email "khabirov_alekc@mail.ru"
